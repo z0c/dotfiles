@@ -1,11 +1,11 @@
 apps=(
-	chromium
 	dialog
 	dmenu
 	dosfstools
 	exfat-utils
+	firefox-developer-edition
 	git
-	htop 			# Improved top (interactive process viewer)
+	htop 				# Improved top (interactive process viewer)
 	i3-wm
 	i3status
 	i3blocks
@@ -18,7 +18,7 @@ apps=(
 	unzip
 	vim
 	vlc
-	wget 			# Internet file retriever
+	wget 				# Internet file retriever
 	wpa_supplicant
 	xorg
 	xorg-xinit

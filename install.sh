@@ -1,21 +1,24 @@
-apps=(
-	chromium
-	dosfstools
-	exfat-utils
-	git
-	i3-wm
-	i3status
-	i3blocks
-	obconf
-	openssh
-	qt4
-	ttf-dejavu
-	ttf-hack
-	vlc
-	unzip
-	xorg-xinit
-	xterm
-	zip
-)
+#!/usr/bin/env bash
 
-pacman -S --needed --noconfirm --force "${apps[@]}"
+# Get current dir so this can run from any location
+export DOTFILES_DIR DOTFILES_CACHE DOTFILES_EXTRA_DIR
+DOTFILES_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+DOTFILES_CACHE="$DOTFILES_DIR/.cache.sh"
+DOTFILES_EXTRA_DIR="$HOME/.extra"
+
+# Make utils available
+PATH="$DOTFILES_DIR/bin:$PATH"
+
+# Make utils executable
+find "$DOTFILES_DIR/bin/" -type f -exec chmod +x {} \;
+
+# TODO: Update myself
+# TODO: Bunch of symlinks
+
+# Installers
+. "$DOTFILES_DIR/install/pacman.sh"
+
+# TODO: Copy fonts
+# TODO: Run tests
+# TODO: Install extra stuff
+

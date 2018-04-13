@@ -21,8 +21,8 @@ ln -sfv "$DOTFILES_DIR/.bash_profile" ~
 ln -sfv "$DOTFILES_DIR/.bashrc" ~
 ln -sfv "$DOTFILES_DIR/.gitconfig" ~
 ln -sfv "$DOTFILES_DIR/.gitignore_global" ~
-ln -sfv "$DOTFILES_DIR/.xorg/.Xresources" ~
-ln -sfv "$DOTFILES_DIR/.xorg/.xinitrc" ~
+ln -sfv "$DOTFILES_DIR/.Xresources" ~
+ln -sfv "$DOTFILES_DIR/.xinitrc" ~
 ln -sfv "$DOTFILES_DIR/.config/i3/config" ~/.config/i3/
 
 # Installers

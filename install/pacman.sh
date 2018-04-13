@@ -19,6 +19,7 @@ apps=(
 	vim
 	vlc
 	wpa_supplicant
+	wget 			# Internet file retriever
 	xorg
 	xorg-xinit
 	xterm

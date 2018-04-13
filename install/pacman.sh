@@ -1,5 +1,6 @@
 apps=(
 	chromium
+	dialog
 	dosfstools
 	exfat-utils
 	git
@@ -11,8 +12,10 @@ apps=(
 	qt4
 	ttf-dejavu
 	ttf-hack
-	vlc
 	unzip
+	vim
+	vlc
+	wpa_supplicant
 	xorg-xinit
 	xterm
 	zip

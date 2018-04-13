@@ -4,7 +4,6 @@
 export DOTFILES_DIR DOTFILES_CACHE DOTFILES_EXTRA_DIR
 DOTFILES_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 DOTFILES_CACHE="$DOTFILES_DIR/.cache.sh"
-DOTFILES_EXTRA_DIR="$HOME/.extra"
 
 # Make utils available
 PATH="$DOTFILES_DIR/bin:$PATH"
@@ -24,5 +23,3 @@ fi
 
 # TODO: Copy fonts
 # TODO: Run tests
-# TODO: Install extra stuff
-

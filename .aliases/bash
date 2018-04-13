@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+# Directory listing/traversal
+alias ll="ls -lA $LS_COLORS"

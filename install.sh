@@ -19,6 +19,7 @@ fi
 # Bunch of symlinks
 ln -sfv "$DOTFILES_DIR/.xorg/.Xresources" ~
 ln -sfv "$DOTFILES_DIR/.xorg/.xinitrc" ~
+ln -sfv "$DOTFILES_DIR/.i3/config" ~/.config/i3/
 
 # Installers
 . "$DOTFILES_DIR/install/pacman.sh"

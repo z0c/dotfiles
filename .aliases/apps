@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+alias firefox='firefox -private-window'
+alias spotify='spotify --force-device-scale-factor=1.7'

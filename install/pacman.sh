@@ -22,4 +22,4 @@ apps=(
 	zip
 )
 
-pacman -S --needed --noconfirm --force "${apps[@]}"
+sudo pacman -S --needed --noconfirm --force "${apps[@]}"

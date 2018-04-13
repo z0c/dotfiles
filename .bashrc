@@ -18,6 +18,7 @@ DOTFILES_CACHE="$DOTFILES_DIR/.cache.sh"
 [ -f "$DOTFILES_CACHE" ] && . "$DOTFILES_CACHE"
 
 # Aliases
+source $DOTFILES_DIR/.aliases/apps
 source $DOTFILES_DIR/.aliases/bash
 
 # Clean up

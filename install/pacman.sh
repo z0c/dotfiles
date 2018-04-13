@@ -6,7 +6,7 @@ apps=(
 	firefox-developer-edition
 	git
 	htop 				# Improved top (interactive process viewer)
-	i3-wm
+	i3-gaps
 	i3status
 	i3blocks
 	obconf

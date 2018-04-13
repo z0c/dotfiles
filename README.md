@@ -21,13 +21,11 @@ Bootstrap
 pacstrap /mnt base vim git
 ```
 
-Set xterm as default terminal in i3
+The checkout and execute the installer
 ```
-vim ~/.config/i3/config
-bindsym $mod+Return exec xterm
+git clone https://github.com/z0c/dotfiles
+bash dotfiles/setup.sh
 ```
-
-Make sure the settings are loaded properly when X starts, for instance in your ~/.xinitrc with `xrdb -merge ~/.Xresources`
 
 Reference
 =========

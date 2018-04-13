@@ -18,7 +18,6 @@ apps=(
 	unzip
 	vim
 	vlc
-	watch 			# Executes a program periodically, showing output fullscreen
 	wget 			# Internet file retriever
 	wpa_supplicant
 	xorg

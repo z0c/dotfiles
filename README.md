@@ -27,19 +27,6 @@ vim ~/.config/i3/config
 bindsym $mod+Return exec xterm
 ```
 
-Fix retina display
-```
-vim~/.Xresources
-
-Xft.dpi: 180
-Xft.autohint: 0
-Xft.lcdfilter:  lcddefault
-Xft.hintstyle:  hintfull
-Xft.hinting: 1
-Xft.antialias: 1
-Xft.rgba: rgb
-```
-
 Make sure the settings are loaded properly when X starts, for instance in your ~/.xinitrc with `xrdb -merge ~/.Xresources`
 
 Reference

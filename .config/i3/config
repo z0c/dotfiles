@@ -140,10 +140,9 @@ bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcu
 
 # set shut down, restart and locking features
 bindsym $mod+Shift+Return mode "$system"
-set $system (l)ock, (s)uspend, (Shift+r)eboot, (Shift+s)hutdown
+set $system (l)ock, (Shift+r)eboot, (Shift+s)hutdown
 mode "$system" {
     bindsym l exec $lock, mode "default"
-    bindsym s exec systemctl suspend, mode "default"
     bindsym Shift+r exec systemctl reboot, mode "default"
     bindsym Shift+s exec systemctl poweroff, mode "default"
 

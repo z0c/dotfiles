@@ -6,16 +6,16 @@ DOTFILES_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 DOTFILES_CACHE="$DOTFILES_DIR/.cache.sh"
 DOTFILES_EXTRA_DIR="$HOME/.extra"
 
-# Update myself
-if is-executable git -a -d "$DOTFILES_DIR/.git"; then
-  git --work-tree="$DOTFILES_DIR" --git-dir="$DOTFILES_DIR/.git" pull origin master
-fi
-
 # Make utils available
 PATH="$DOTFILES_DIR/bin:$PATH"
 
 # Make utils executable
 find "$DOTFILES_DIR/bin/" -type f -exec chmod +x {} \;
+
+# Update myself
+if is-executable git -a -d "$DOTFILES_DIR/.git"; then
+  git --work-tree="$DOTFILES_DIR" --git-dir="$DOTFILES_DIR/.git" pull origin master
+fi
 
 # TODO: Bunch of symlinks
 

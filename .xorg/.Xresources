@@ -1,0 +1,13 @@
+! Sane defaults for retina displays
+Xft.dpi:          180
+Xft.autohint:     false
+Xft.lcdfilter:    lcddefault
+Xft.hinting:      true
+Xft.antialias:    true
+Xft.rgba:         rgb
+
+! Xterm
+XTerm*background: white
+XTerm*foreground: black
+XTerm*faceName: Fixed
+XTerm*faceSize: 11

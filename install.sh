@@ -16,7 +16,8 @@ if is-executable git -a -d "$DOTFILES_DIR/.git"; then
   git --work-tree="$DOTFILES_DIR" --git-dir="$DOTFILES_DIR/.git" pull origin master
 fi
 
-# TODO: Bunch of symlinks
+# Bunch of symlinks
+ln -sfv "$DOTFILES_DIR/.xorg/.Xresources" ~
 
 # Installers
 . "$DOTFILES_DIR/install/pacman.sh"

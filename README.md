@@ -18,7 +18,7 @@ sudo qemu-system-x86_64 -cpu core2duo -cdrom ~/Downloads/archlinux-2018.04.01-x8
 
 Bootstrap
 ```
-pacstrap /mnt base vim wpa_supplicant dialog
+pacstrap /mnt base vim git
 ```
 
 Set xterm as default terminal in i3

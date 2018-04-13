@@ -5,6 +5,7 @@ apps=(
 	dosfstools
 	exfat-utils
 	git
+	htop 			# Improved top (interactive process viewer)
 	i3-wm
 	i3status
 	i3blocks

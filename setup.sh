@@ -17,7 +17,7 @@ if is-executable git -a -d "$DOTFILES_DIR/.git"; then
 fi
 
 # Bunch of symlinks
-ln -sfc "$DOTFILES_DIR/.bash_profile" ~
+ln -sfv "$DOTFILES_DIR/.bash_profile" ~
 ln -sfv "$DOTFILES_DIR/.bashrc" ~
 ln -sfv "$DOTFILES_DIR/.gitconfig" ~
 ln -sfv "$DOTFILES_DIR/.gitignore_global" ~

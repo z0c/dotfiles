@@ -1,6 +1,7 @@
 apps=(
 	chromium
 	dialog
+	dmenu
 	dosfstools
 	exfat-utils
 	git
@@ -17,6 +18,7 @@ apps=(
 	vim
 	vlc
 	wpa_supplicant
+	xorg
 	xorg-xinit
 	xterm
 	zip

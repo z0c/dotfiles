@@ -17,6 +17,8 @@ if is-executable git -a -d "$DOTFILES_DIR/.git"; then
 fi
 
 # Bunch of symlinks
+ln -sfc "$DOTFILES_DIR/.bashrc" ~
+
 ln -sfv "$DOTFILES_DIR/.xorg/.Xresources" ~
 ln -sfv "$DOTFILES_DIR/.xorg/.xinitrc" ~
 ln -sfv "$DOTFILES_DIR/.config/i3/config" ~/.config/i3/

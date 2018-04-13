@@ -18,7 +18,8 @@ fi
 
 # Bunch of symlinks
 ln -sfv "$DOTFILES_DIR/.bashrc" ~
-
+ln -sfv "$DOTFILES_DIR/.gitconfig" ~
+ln -sfv "$DOTFILES_DIR/.gitignore_global" ~
 ln -sfv "$DOTFILES_DIR/.xorg/.Xresources" ~
 ln -sfv "$DOTFILES_DIR/.xorg/.xinitrc" ~
 ln -sfv "$DOTFILES_DIR/.config/i3/config" ~/.config/i3/

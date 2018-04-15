@@ -12,7 +12,6 @@ apps=(
 	i3blocks
 	obconf
 	openssh
-	qt4
 	tree
 	ttf-dejavu
 	ttf-hack

@@ -10,4 +10,4 @@ Xft.rgba:       rgb
 XTerm*background: black
 XTerm*foreground: white
 XTerm*faceName:   Fixed
-XTerm*faceSize:   10
+XTerm*faceSize:   8

@@ -9,5 +9,5 @@ Xft.rgba:       rgb
 ! Xterm
 XTerm*background: black
 XTerm*foreground: white
-XTerm*faceName:   Fixed
+XTerm*faceName:   pango
 XTerm*faceSize:   8

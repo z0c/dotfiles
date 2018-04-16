@@ -27,6 +27,11 @@ git clone https://github.com/z0c/dotfiles
 bash dotfiles/setup.sh
 ```
 
+Fix keyboard mapping
+```
+setxkbmap gb -variant mac
+```
+
 Reference
 =========
 

@@ -7,7 +7,6 @@ apps=(
 	git
 	htop 				# Improved top (interactive process viewer)
 	i3-gaps
-	i3-dmenu-desktop
 	i3status
 	i3blocks
 	obconf

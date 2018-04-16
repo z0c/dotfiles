@@ -21,11 +21,9 @@ ln -sfv "$DOTFILES_DIR/.bash_profile" ~
 ln -sfv "$DOTFILES_DIR/.bashrc" ~
 ln -sfv "$DOTFILES_DIR/.gitconfig" ~
 ln -sfv "$DOTFILES_DIR/.gitignore_global" ~
-ln -sfv "$DOTFILES_DIR/.gtkrc-2.0" ~
 ln -sfv "$DOTFILES_DIR/.Xresources" ~
 ln -sfv "$DOTFILES_DIR/.xinitrc" ~
 ln -sfv "$DOTFILES_DIR/.config/i3/config" ~/.config/i3/
-ln -sfv "$DOTFILES_DIR/.config/gtk-3.0/settings.ini" ~/.config/gtk-3.0/
 
 # Installers
 . "$DOTFILES_DIR/install/pacman.sh"

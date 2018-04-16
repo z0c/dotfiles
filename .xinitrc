@@ -7,8 +7,7 @@ xrandr --dpi 180
 [[ -f ~/.Xresources ]] && xrdb -merge ~/.Xresources
 
 # Fix keymap
-[[ -f ~/.Xmodmap ]] && xmodmap ~/.Xmodmap
-xbindkeys -p
+setxkbmap gb -variant mac
 
 # Let QT and GTK autodetect retina screen and autoadjust
 export QT_AUTO_SCREEN_SCALE_FACTOR=0

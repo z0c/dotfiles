@@ -6,6 +6,10 @@ xrandr --dpi 180
 # Merge load configurations from .Xresources
 [[ -f ~/.Xresources ]] && xrdb -merge ~/.Xresources
 
+# Fix keymap
+[[ -f ~/.Xmodmap ]] && xmodmap ~/.Xmodmap
+xbindkeys -p
+
 # Let QT and GTK autodetect retina screen and autoadjust
 export QT_AUTO_SCREEN_SCALE_FACTOR=0
 export GDK_SCALE=1

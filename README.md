@@ -27,6 +27,11 @@ git clone https://github.com/z0c/dotfiles
 bash dotfiles/setup.sh
 ```
 
+Known Issues
+============
+* Console font is not changing
+* Cant type 3rd character of keys
+
 Reference
 =========
 

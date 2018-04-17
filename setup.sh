@@ -27,6 +27,7 @@ ln -sfv "$DOTFILES_DIR/.config/i3/config" ~/.config/i3/
 
 # Installers
 . "$DOTFILES_DIR/install/pacman.sh"
+. "$DOTFILES_DIR/install/macfixit.sh"
 
 # TODO: Copy fonts
 # TODO: Run tests

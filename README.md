@@ -29,7 +29,9 @@ bash dotfiles/setup.sh
 
 Known Issues
 ============
-* Cant type 3rd character of keys
+* Mac function keys dont work
+* Test speakers
+* Test earphones
 
 Reference
 =========

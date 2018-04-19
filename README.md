@@ -29,6 +29,7 @@ bash dotfiles/setup.sh
 
 Known Issues
 ============
+* Wireless does not work
 * Mac function keys dont work
 * Test speakers
 * Test earphones

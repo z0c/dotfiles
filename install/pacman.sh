@@ -11,6 +11,7 @@ apps=(
 	i3blocks
 	obconf
 	openssh
+	python
 	tree
 	ttf-dejavu
 	ttf-hack

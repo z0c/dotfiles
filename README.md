@@ -30,7 +30,6 @@ bash dotfiles/setup.sh
 Known Issues
 ============
 * `Pacman -S xorg` returns a list of options
-* Wireless does not work
 * Mac function keys dont work
 * Test speakers
 * Test earphones

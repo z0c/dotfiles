@@ -24,7 +24,7 @@ pacstrap /mnt base vim git
 The checkout and execute the installer
 ```
 git clone https://github.com/z0c/dotfiles
-bash dotfiles/setup.sh
+bash dotfiles/dot.sh
 ```
 
 Known Issues

@@ -19,6 +19,15 @@ fi
 # Copy profile dotfiles
 cp -r "$DOTFILES_DIR/profile/." ~
 
+# Symlinks
+ln -svf "$DOTFILES_DIR/profile/.Xresources" ~
+ln -svf "$DOTFILES_DIR/profile/.bash_profile" ~
+ln -svf "$DOTFILES_DIR/profile/.bashrc" ~
+ln -svf "$DOTFILES_DIR/profile/.config/i3/config" ~/.config/i3/config
+ln -svf "$DOTFILES_DIR/profile/.gitconfig" ~
+ln -svf "$DOTFILES_DIR/profile/.gitignore_global" ~
+ln -svf "$DOTFILES_DIR/profile/.xinitrc" ~
+
 # Installers
 . "$DOTFILES_DIR/install/pacman.sh"
 . "$DOTFILES_DIR/install/macfixit.sh"

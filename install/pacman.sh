@@ -19,10 +19,14 @@ apps=(
 	vim
 	wget 				# Internet file retriever
 	wpa_supplicant
-	xorg
+	xorg-server
 	xorg-xinit
 	xterm
 	zip
 )
 
+# Install
 sudo pacman -S --needed --noconfirm --force "${apps[@]}"
+
+# Update
+sudo pacman -Syu --confirm

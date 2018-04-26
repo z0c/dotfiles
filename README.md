@@ -29,10 +29,10 @@ bash dotfiles/setup.sh
 
 Known Issues
 ============
-* `Pacman -S xorg` returns a list of options
 * Mac function keys dont work
 * Test speakers
 * Test earphones
+* Power management
 
 Reference
 =========

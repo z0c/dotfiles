@@ -14,3 +14,16 @@ for p in "${packages[@]}"; do
 		echo "Package ${p} already installed."
 	fi
 done
+
+apps=(
+	mbpfan-git
+)
+
+# Install
+sudo yaourt -S --needed --noconfirm --force "${apps[@]}"
+
+# Update
+sudo yaourt -Syu --noconfirm
+
+# Enable services
+sudo systemctl enable mbpfan && sudo systemctl start mbpfan

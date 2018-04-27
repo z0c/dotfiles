@@ -36,8 +36,8 @@ TODO
 ============
 - [X] Video card
 - [X] Fan control
-- [ ] Mac function keys dont work
-- [ ] Backlit keys
+- [X] Mac function keys
+- [X] Backlit keys
 - [ ] Test speakers
 - [ ] Test earphones
 - [ ] Power management

@@ -17,6 +17,7 @@ done
 
 apps=(
 	mbpfan-git
+	pommed-light
 )
 
 # Install
@@ -27,3 +28,4 @@ sudo yaourt -Syu --noconfirm
 
 # Enable services
 sudo systemctl enable mbpfan && sudo systemctl start mbpfan
+sudo systemctl enable pommed && sudo systemctl start pommed

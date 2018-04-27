@@ -32,13 +32,14 @@ git clone https://github.com/z0c/dotfiles
 bash dotfiles/dot.sh
 ```
 
-Known Issues
+TODO
 ============
-[ ] Mac function keys dont work
-[ ] Backlit keys
-[ ] Test speakers
-[ ] Test earphones
-[ ] Power management
+- [X] Fan control
+- [ ] Mac function keys dont work
+- [ ] Backlit keys
+- [ ] Test speakers
+- [ ] Test earphones
+- [ ] Power management
 
 Reference
 =========

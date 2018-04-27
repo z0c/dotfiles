@@ -30,6 +30,7 @@ ln -svf "$DOTFILES_DIR/profile/.xinitrc" ~
 
 # Installers
 . "$DOTFILES_DIR/install/pacman.sh"
+. "$DOTFILES_DIR/install/yaourt.sh"
 . "$DOTFILES_DIR/install/macfixit.sh"
 
 # TODO: Copy fonts

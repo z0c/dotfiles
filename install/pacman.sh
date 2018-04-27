@@ -1,4 +1,5 @@
 apps=(
+	base-devel
 	dialog
 	dmenu
 	dosfstools

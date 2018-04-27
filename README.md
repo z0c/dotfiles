@@ -34,6 +34,7 @@ bash dotfiles/dot.sh
 
 TODO
 ============
+- [X] Video card
 - [X] Fan control
 - [ ] Mac function keys dont work
 - [ ] Backlit keys

@@ -1,5 +1,5 @@
 apps=(
-	base-devel
+	base-devel			# Make / build tools
 	dialog
 	dmenu
 	dosfstools
@@ -10,6 +10,7 @@ apps=(
 	i3-gaps
 	i3status
 	i3blocks
+	mesa				# An open-source implementation of the OpenGL specification
 	obconf
 	openssh
 	python

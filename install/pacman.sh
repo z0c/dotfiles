@@ -1,4 +1,5 @@
 apps=(
+	alsa-utils			# An alternative implementation of Linux sound support
 	base-devel			# Make / build tools
 	dialog
 	dmenu
@@ -13,6 +14,8 @@ apps=(
 	mesa				# An open-source implementation of the OpenGL specification
 	obconf
 	openssh
+	pulseaudio			# A featureful, general-purpose sound server
+	pulseaudio-alsa
 	python
 	tree
 	ttf-dejavu

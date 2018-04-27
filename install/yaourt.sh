@@ -16,6 +16,7 @@ for p in "${packages[@]}"; do
 done
 
 apps=(
+	asoundconf
 	mbpfan-git
 	pommed-light
 )

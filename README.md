@@ -38,8 +38,8 @@ TODO
 - [X] Fan control
 - [X] Mac function keys
 - [X] Backlit keys
-- [ ] Test speakers
-- [ ] Test earphones
+- [X] Audio
+- [ ] Headphones
 - [ ] Power management
 
 Reference

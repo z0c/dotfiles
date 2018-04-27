@@ -21,6 +21,8 @@ cp -r "$DOTFILES_DIR/profile/." ~
 
 # Symlinks
 ln -svf "$DOTFILES_DIR/profile/.Xresources" ~
+ln -svf "$DOTFILES_DIR/profile/.asoundrc" ~
+ln -svf "$DOTFILES_DIR/profile/.asoundrc.asoundconf" ~
 ln -svf "$DOTFILES_DIR/profile/.bash_profile" ~
 ln -svf "$DOTFILES_DIR/profile/.bashrc" ~
 ln -svf "$DOTFILES_DIR/profile/.config/i3/config" ~/.config/i3/config

@@ -30,4 +30,4 @@ apps=(
 sudo pacman -S --needed --noconfirm --force "${apps[@]}"
 
 # Update
-sudo pacman -Syu --confirm
+sudo pacman -Syu --noconfirm

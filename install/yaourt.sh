@@ -16,7 +16,7 @@ for p in "${packages[@]}"; do
 done
 
 apps=(
-	macfanctld
+	mbpfan-git
 )
 
 # Install
@@ -26,4 +26,4 @@ yaourt -S --needed --noconfirm --force "${apps[@]}"
 sudo yaourt -Syu --noconfirm
 
 # Enable services
-sudo systemctl enable macfan && sudo systemctl start macfan
+sudo systemctl enable mbpfan && sudo systemctl start mbpfan

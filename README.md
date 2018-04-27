@@ -21,6 +21,11 @@ Bootstrap
 pacstrap /mnt base vim git
 ```
 
+Change root to mount
+```
+arch-chroot /mnt
+```
+
 Then checkout and execute the installer
 ```
 git clone https://github.com/z0c/dotfiles

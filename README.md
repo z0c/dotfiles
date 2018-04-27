@@ -35,6 +35,7 @@ bash dotfiles/dot.sh
 Known Issues
 ============
 * Mac function keys dont work
+* Backlit keys
 * Test speakers
 * Test earphones
 * Power management

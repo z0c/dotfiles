@@ -45,6 +45,8 @@ TODO
 Reference
 =========
 
+* https://wiki.archlinux.org/index.php/mac
+* https://wiki.archlinux.org/index.php/MacBookPro11,x
 * https://gist.github.com/elerch/678941eb670324ffc3f261eabba81310
 * https://www.youtube.com/watch?v=sDq1oaYRgeg
 * http://tutos.readthedocs.io/en/latest/source/Arch.html

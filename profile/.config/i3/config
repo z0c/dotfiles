@@ -180,6 +180,20 @@ mode "resize" {
 
 bindsym $mod+r mode "resize"
 
+# Media keys
+bindsym XF86MonBrightnessDown exec --no-startup-id "sudo xbacklight -dec 10"
+bindsym XF86MonBrightnessUp exec --no-startup-id "sudo xbacklight -inc 10"
+# bindsym XF86LaunchA exec --no-startup-id $lock
+# bindsym XF86LaunchB exec --no-startup-id "/some/path/toggletouchpad.sh"
+bindsym XF86KbdBrightnessDown exec --no-startup-id "kbdlight down 10"
+bindsym XF86KbdBrightnessUp exec --no-startup-id "kbdlight up 10"
+bindsym XF86AudioPrev exec --no-startup-id "dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.Previous || spotify --force-device-scale-factor=1.7"
+bindsym XF86AudioPlay exec --no-startup-id "dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.PlayPause || spotify --force-device-scale-factor=1.7"
+bindsym XF86AudioNext exec --no-startup-id "dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.Next || spotify --force-device-scale-factor=1.7"
+bindsym XF86AudioLowerVolume exec --no-startup-id "amixer set Master 10%- unmute"
+bindsym XF86AudioRaiseVolume exec --no-startup-id "amixer set Master 10%+ unmute"
+bindsym XF86AudioMute exec --no-startup-id "amixer set Master toggle"
+
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available)
 bar {

@@ -14,7 +14,7 @@ set $mod Mod4
 # apps
 set $browser "firefox-developer-edition"
 set $lock "i3lock -c 000000"
-set $menu "i3-dmenu-desktop"
+set $menu "rofi -show run"
 set $term "xterm"
 
 # Font for window titles. Will also be used by the bar unless a different font

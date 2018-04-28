@@ -17,7 +17,8 @@ apps=(
 	pulseaudio			# A featureful, general-purpose sound server
 	pulseaudio-alsa
 	python
-	tree
+	rofi				# A window switcher, application launcher and dmenu replacemet
+	tree 
 	ttf-dejavu
 	ttf-hack
 	unzip

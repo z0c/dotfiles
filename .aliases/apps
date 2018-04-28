@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 
 alias firefox='firefox-developer-edition -private-window'
-alias spotify='spotify --force-device-scale-factor=1.7'
+alias spotify='spotify --force-device-scale-factor=1.5'

@@ -19,6 +19,7 @@ apps=(
 	asoundconf
 	mbpfan-git
 	pommed-light
+	spotify
 )
 
 # Install

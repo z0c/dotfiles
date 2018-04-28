@@ -2,7 +2,6 @@ apps=(
 	alsa-utils			# An alternative implementation of Linux sound support
 	base-devel			# Make / build tools
 	dialog
-	dmenu
 	dosfstools
 	exfat-utils
 	firefox-developer-edition

@@ -39,7 +39,7 @@ TODO
 - [X] Mac function keys
 - [X] Backlit keys
 - [X] Audio
-- [ ] Headphones
+- [x] Headphones
 - [ ] Power management
 
 Reference

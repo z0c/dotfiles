@@ -16,6 +16,7 @@ apps=(
 	pulseaudio			# A featureful, general-purpose sound server
 	pulseaudio-alsa
 	python
+	ranger				# A simple, vim-like file manager
 	rofi				# A window switcher, application launcher and dmenu replacemet
 	tree 
 	ttf-dejavu

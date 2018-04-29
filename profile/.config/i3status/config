@@ -7,8 +7,8 @@
 # If the above line is not correctly displayed, fix your editor first!
 
 general {
-	colors = true
-	interval = 3
+	colors 		= true
+	interval 	= 3
 	color_good      = '#5F819D'
 	color_degraded  = '#ccdc90'
 	color_bad       = '#e89393'
@@ -24,8 +24,8 @@ order += "disk /"
 order += "tztime local"
 
 wireless _first_ {
-        format_up = " W:%essid%quality "
-        format_down = " W: down "
+        format_up = " W:%essid%quality"
+        format_down = " W: down"
 }
 
 ethernet _first_ {
@@ -35,10 +35,10 @@ ethernet _first_ {
 }
 
 battery all {
-	format = " %status %percentage %remaining "
-    status_chr = "charging"
-    status_bat = "battery"
-    status_full = "full"
+	format = " %status %percentage %remaining"
+    	status_chr = "charging"
+    	status_bat = "battery"
+    	status_full = "full"
 	format_down = ""
 	last_full_capacity = true
 	integer_battery_capacity = true
@@ -48,11 +48,11 @@ battery all {
 }
 
 tztime local {
-        format = " %A,%e %B %H:%M:%S "
+        format = " %A, %e %B %H:%M:%S"
 }
 
 load {
-        format = " load: %1min "
+        format = " load: %1min"
 }
 
 cpu_usage {
@@ -60,17 +60,17 @@ cpu_usage {
 }
 
 cpu_temperature 1 {
-	format = " %degreesÂ°C "
+	format = " %degreesÂ°"
 }
 
 disk "/" {
-        format = " %avail "
+        format = " %avail"
 }
 
 volume master {
-	format = "vol %volume "
-	format_muted = "vol %volume "
-	device = "default"
-	mixer = "Master"
-	mixer_idx = 0
+	format 		= "vol %volume"
+	format_muted 	= "vol ."
+	device 		= "default"
+	mixer 		= "Master"
+	mixer_idx 	= 0
 }

@@ -1,0 +1,47 @@
+! Base16 IR Black
+! Author: Timothée Poisot (http://timotheepoisot.fr)
+
+! base00: #000000
+! base01: #242422
+! base02: #484844
+! base03: #6c6c66
+! base04: #918f88
+! base05: #b5b3aa
+! base06: #d9d7cc
+! base07: #fdfbee
+! base08: #ff6c60
+! base09: #e9c062
+! base0A: #ffffb6
+! base0B: #a8ff60
+! base0C: #c6c5fe
+! base0D: #96cbfe
+! base0E: #ff73fd
+! base0F: #b18a3d
+
+! Enable the extended coloring options
+rofi.color-enabled: true
+
+! Property Name     BG       Border   Separator
+rofi.color-window: #1D1F21, #707880, #707880
+
+! Property Name    BG      FG        BG-alt   Head-BG  Head-FG
+rofi.color-normal: #1D1F21, #C5C8C6, #1D1F21, #1D1F21, #FFFFFF
+rofi.color-active: #1D1F21, #C5C8C6, #1D1F21, #1D1F21, #FFFFFF
+rofi.color-urgent: #1D1F21, #C5C8C6, #1D1F21, #1D1F21, #FFFFFF
+
+! Set the desired separator style
+rofi.separator-style: solid
+
+rofi.sidebar-mode: false
+rofi.lines: 5
+rofi.font: monofur 13
+rofi.bw: 0
+rofi.columns: 1
+rofi.padding: 900
+rofi.fixed-num-lines: true
+rofi.hide-scrollbar: true
+rofi.eh: 2
+rofi.width: 100
+rofi.opacity: 90
+rofi.font: Inconsolata-dz for Powerline 18
+! rofi.font: Meslo LG M for Powerline Regular 15

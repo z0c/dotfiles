@@ -53,7 +53,7 @@ tztime local {
 }
 
 load {
-        format = " load: %1min"
+        format = " load: %1min "
 }
 
 cpu_usage {

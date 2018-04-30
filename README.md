@@ -53,3 +53,4 @@ Reference
 * https://github.com/mohlerm/dotfiles
 * https://github.com/Airblader/dotfiles-manjaro
 * https://bitbucket.org/marcoslopes/dotfiles-arch/src/217299091578da9f19663518235fc1861713d3e7/.aliases/dotfiles?at=master&fileviewer=file-view-default
+* https://github.com/pcm720/i3-dotfiles

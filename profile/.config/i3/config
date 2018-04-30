@@ -9,7 +9,16 @@
 #
 # Please see https://i3wm.org/docs/userguide.html for a complete reference!
 
+# Use CMD as mod
 set $mod Mod4
+
+# Color scheme
+#colors:                border  backgr. text    indicator child_border
+client.focused          #333333 #444444 #ffffff #292d2e #666666
+client.focused_inactive #333333 #5f676a #ffffff #484e50 #111111
+client.unfocused        #333333 #111111 #888888 #292d2e #111111
+client.urgent           #2f343a #560000 #ffffff #560000 #111111
+client.background #ffffff
 
 # apps
 set $browser "firefox-developer-edition"

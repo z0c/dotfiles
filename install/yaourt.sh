@@ -20,6 +20,7 @@ apps=(
 	mbpfan-git
 	pommed-light
 	spotify
+	stress		# A tool that stess tests your system (CPU, memory, I/O, disks)
 )
 
 # Install

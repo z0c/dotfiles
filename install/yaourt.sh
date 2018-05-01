@@ -17,6 +17,7 @@ done
 
 apps=(
 	asoundconf
+	heroku-cli	# A tool for creating and managing Heroku apps from the command line
 	mbpfan-git
 	pommed-light
 	spotify

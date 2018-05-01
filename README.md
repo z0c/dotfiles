@@ -34,13 +34,12 @@ bash dotfiles/dot.sh
 
 TODO
 ============
-- [X] Video card
-- [X] Fan control
-- [X] Mac function keys
-- [X] Backlit keys
-- [X] Audio
-- [x] Headphones
 - [ ] Power management
+- [ ] Copy & paste on xterm
+- [ ] UTF-8 on xterm
+- [ ] UTF-8 on vim
+- [ ] microphone
+- [ ] vpn client
 
 Reference
 =========

@@ -70,7 +70,7 @@ disk "/" {
 
 volume master {
 	format 		= "vol %volume "
-	format_muted 	= "vol . "
+	format_muted 	= "vol - "
 	device 		= "default"
 	mixer 		= "Master"
 	mixer_idx 	= 0

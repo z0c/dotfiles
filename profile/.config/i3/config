@@ -24,7 +24,7 @@ client.background 	#ffffff
 set $browser "firefox-developer-edition"
 set $lock "i3lock -c 000000"
 set $menu "rofi -show run"
-set $term "xterm"
+set $term "xterm -en en_US.UTF-8"
 
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below.

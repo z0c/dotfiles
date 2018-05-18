@@ -10,6 +10,8 @@ apps=(
 	i3-gaps
 	i3status
 	i3blocks
+	iftop				# Display bandwidth usage on an interface
+	iotop				# View I/O usage of processes
 	mesa				# An open-source implementation of the OpenGL specification
 	obconf
 	openssh

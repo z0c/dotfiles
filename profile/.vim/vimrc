@@ -28,6 +28,8 @@ call plug#begin('~/.vim/plugged')
 	" Python
 	Plug 'davidhalter/jedi-vim', { 'for': [ 'python' ] }
 
+    " Inspect startup time of vim
+    Plug 'tweekmonster/startuptime.vim'
 call plug#end()
 
 " Remove VI compatibility. SET FIRST!

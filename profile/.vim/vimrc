@@ -1,3 +1,59 @@
-set enc=utf-8
-set fileencoding=utf-8
-set fileencodings=ucs-bom,utf8,prc
+" Remove VI compatibility. SET FIRST!
+set nocompatible
+
+" http://lists.alioth.debian.org/pipermail/pkg-vim-maintainers/2007-June/004020.html
+set modelines=0
+
+" Unicode
+set encoding=utf8
+
+" show intermediate commands
+set showcmd
+
+" Set linenumbers
+set number
+set relativenumber
+
+" Highlight search
+set hlsearch
+
+" Predictive search
+set incsearch
+
+" Show current position
+set ruler
+
+" Show matching brackets when text indicator is over them
+set showmatch
+
+" No backups
+set noswapfile
+
+" Enable syntax highlighting
+if !exists("g:syntax_on")
+    syntax enable
+endif
+
+" Enable 256 color mode
+set t_Co=256
+
+" Use Unix as the standard file type
+set ffs=unix,dos,mac
+
+" Use spaces instead of tabs
+set expandtab
+
+" Smart tabs
+set smarttab
+
+" Tab spaces
+set shiftwidth=4
+set tabstop=4
+set softtabstop=4
+
+" Ident to the nearest tab
+set shiftround
+
+" whitespaces
+highlight ExtraWhiteSpace ctermbg=red guibg=red
+match ExtraWhitespace /\s\+$/

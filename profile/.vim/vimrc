@@ -19,11 +19,15 @@ call plug#begin('~/.vim/plugged')
     " Class outline viewer
     Plug 'majutsushi/tagbar', { 'on': ['Tagbar'] }
 
+    " Tab completion
+    Plug 'ervandew/supertab'
+
     " Terraform
 	Plug 'hashivim/vim-terraform', { 'for': [ 'terraform' ] }
 
 	" Python
 	Plug 'davidhalter/jedi-vim', { 'for': [ 'python' ] }
+
 call plug#end()
 
 " Remove VI compatibility. SET FIRST!

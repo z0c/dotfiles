@@ -40,6 +40,7 @@ ln -svf "$DOTFILES_DIR/profile/.xinitrc" ~
 . "$DOTFILES_DIR/install/yaourt.sh"
 . "$DOTFILES_DIR/install/macfixit.sh"
 . "$DOTFILES_DIR/install/vim.sh"
+. "$DOTFILES_DIR/install/rvm.sh"
 
 # TODO: Copy fonts
 # TODO: Run tests

@@ -3,6 +3,7 @@ filetype off " required
 call plug#begin('~/.vim/plugged')
     Plug 'bling/vim-airline'
     Plug 'vim-airline/vim-airline-themes'
+    Plug 'scrooloose/nerdtree', { 'on': ['NERDTreeToggle', 'NERDTreeFind'] }
 call plug#end()
 
 " Remove VI compatibility. SET FIRST!

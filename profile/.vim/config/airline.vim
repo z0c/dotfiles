@@ -25,7 +25,6 @@ let g:airline_theme='onedark'
 let g:airline#extensions#tabline#show_tab_nr = 1
 " let g:airline#extensions#tabline#tab_nr_type = 1 " tab number
 
-
 " Show directory if two files with the same name
 let g:airline#extensions#tabline#fnamecollapse = 1
 let g:airline#extensions#tabline#formatter = 'unique_tail_improved'

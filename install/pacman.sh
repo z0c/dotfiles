@@ -1,9 +1,9 @@
 apps=(
 	alsa-utils			# An alternative implementation of Linux sound support
 	base-devel			# Make / build tools
-	dialog
-	dosfstools
-	exfat-utils
+	dialog				# A tool to display dialog boxes from shell scripts
+	dosfstools			# DOS filesystem utilities
+	exfat-utils			# Utilities for exFAT file systems
 	firefox-developer-edition
 	git
 	htop 				# Improved top (interactive process viewer)

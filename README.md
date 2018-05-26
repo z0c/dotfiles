@@ -26,7 +26,7 @@ Change root to mount
 arch-chroot /mnt
 ```
 
-Then checkout and execute the installer
+Then checkout and execute the installr
 ```
 git clone https://github.com/z0c/dotfiles
 bash dotfiles/dot.sh
@@ -36,8 +36,6 @@ TODO
 ============
 - [ ] Power management
 - [ ] Copy & paste on xterm
-- [ ] UTF-8 on xterm
-- [ ] UTF-8 on vim
 - [ ] microphone
 - [ ] vpn client
 
@@ -50,6 +48,6 @@ Reference
 * https://www.youtube.com/watch?v=sDq1oaYRgeg
 * http://tutos.readthedocs.io/en/latest/source/Arch.html
 * https://github.com/mohlerm/dotfiles
-* https://github.com/Airblader/dotfiles-manjaro
+* https://github.com/Airblader/dotfiles-manjar
 * https://bitbucket.org/marcoslopes/dotfiles-arch/src/217299091578da9f19663518235fc1861713d3e7/?at=master&fileviewer=file-view-default
 * https://github.com/pcm720/i3-dotfiles

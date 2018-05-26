@@ -35,6 +35,12 @@ call plug#end()
 " Remove VI compatibility. SET FIRST!
 set nocompatible
 
+" filetype [ON] plugin [ON] ident [ON]
+filetype plugin indent on
+
+" Turn on wildmenu
+set wildmenu
+
 " http://lists.alioth.debian.org/pipermail/pkg-vim-maintainers/2007-June/004020.html
 set modelines=0
 

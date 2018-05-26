@@ -24,10 +24,11 @@ ln -svf "$DOTFILES_DIR/profile/.bash_profile" ~
 ln -svf "$DOTFILES_DIR/profile/.bashrc" ~
 ln -svf "$DOTFILES_DIR/profile/.config/i3/config" ~/.config/i3/config
 ln -svf "$DOTFILES_DIR/profile/.config/i3status/config" ~/.config/i3status/config
-mkdir ~/.config/termite/config
-ln -svf "$DOTFILES_DIR/profile/.config/termite/config" ~/.config/termite/config
+ln -svf "$DOTFILES_DIR/profile/.config/qutebrowser/config.py" ~/.config/qutebrowser/config.py
 ln -svf "$DOTFILES_DIR/profile/.config/ranger/rc.conf" ~/.config/ranger/rc.conf
 ln -svf "$DOTFILES_DIR/profile/.config/rofi/config" ~/.config/rofi/config
+[ -d ~/.config/termite/config ] && mkdir ~/.config/termite/config
+ln -svf "$DOTFILES_DIR/profile/.config/termite/config" ~/.config/termite/config
 ln -svf "$DOTFILES_DIR/profile/.gitconfig" ~
 ln -svf "$DOTFILES_DIR/profile/.gitignore_global" ~
 #ln -svf "$DOTFILES_DIR/profile/.vim/vimrc" ~/.vim

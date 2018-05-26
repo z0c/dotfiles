@@ -1,9 +1,17 @@
 " Plugins
 filetype off " required
 call plug#begin('~/.vim/plugged')
+    " Status line
     Plug 'bling/vim-airline'
+
+    " Themes for airline
     Plug 'vim-airline/vim-airline-themes'
+
+    " Improved tree
     Plug 'scrooloose/nerdtree', { 'on': ['NERDTreeToggle', 'NERDTreeFind'] }
+
+    " Github integration
+    Plug 'tpope/vim-fugitive'
 call plug#end()
 
 " Remove VI compatibility. SET FIRST!

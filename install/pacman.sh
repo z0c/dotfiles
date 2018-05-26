@@ -22,6 +22,7 @@ apps=(
 	qutebrowser			# A keyboard-driven, vim-like browser based on PyQt5
 	ranger				# A simple, vim-like file manager
 	rofi				# A window switcher, application launcher and dmenu replacemet
+    terraform           # Tool for building, changing, and versioning infrastructure safely and efficiently
 	termite				# A simple VTE-based terminal
 	tree 
 	ttf-dejavu

@@ -15,6 +15,9 @@ call plug#begin('~/.vim/plugged')
 
     " Automatic delimiter adding
     Plug 'Raimondi/delimitMate'
+
+    " Class outline viewer
+    Plug 'majutsushi/tagbar', { 'on': ['Tagbar'] }
 call plug#end()
 
 " Remove VI compatibility. SET FIRST!

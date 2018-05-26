@@ -1,6 +1,7 @@
 apps=(
 	alsa-utils			# An alternative implementation of Linux sound support
 	base-devel			# Make / build tools
+    ctags               # Generates an index file of language objects found in source files
 	dialog				# A tool to display dialog boxes from shell scripts
 	dosfstools			# DOS filesystem utilities
 	exfat-utils			# Utilities for exFAT file systems

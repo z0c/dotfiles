@@ -22,14 +22,17 @@ call plug#begin('~/.vim/plugged')
     " Tab completion
     Plug 'ervandew/supertab'
 
+	" Inspect startup time of vim
+    Plug 'tweekmonster/startuptime.vim'
+
+	" Ruby
+	Plug 'vim-ruby/vim-ruby', { 'for': [ 'ruby' ] }
+
     " Terraform
 	Plug 'hashivim/vim-terraform', { 'for': [ 'terraform' ] }
 
 	" Python
 	Plug 'davidhalter/jedi-vim', { 'for': [ 'python' ] }
-
-    " Inspect startup time of vim
-    Plug 'tweekmonster/startuptime.vim'
 call plug#end()
 
 " Remove VI compatibility. SET FIRST!
@@ -37,6 +40,7 @@ set nocompatible
 
 " filetype [ON] plugin [ON] ident [ON]
 filetype plugin indent on
+syntax on
 
 " Turn on wildmenu
 set wildmenu

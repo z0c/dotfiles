@@ -31,6 +31,7 @@ ln -svf "$DOTFILES_DIR/profile/.config/rofi/config" ~/.config/rofi/config
 ln -svf "$DOTFILES_DIR/profile/.config/termite/config" ~/.config/termite/config
 ln -svf "$DOTFILES_DIR/profile/.gitconfig" ~
 ln -svf "$DOTFILES_DIR/profile/.gitignore_global" ~
+ln -svf "$DOTFILES_DIR/profile/.vim/config" ~/.vim
 ln -svf "$DOTFILES_DIR/profile/.vim/vimrc" ~/.vim
 ln -svf "$DOTFILES_DIR/profile/.xinitrc" ~
 
@@ -38,6 +39,7 @@ ln -svf "$DOTFILES_DIR/profile/.xinitrc" ~
 . "$DOTFILES_DIR/install/pacman.sh"
 . "$DOTFILES_DIR/install/yaourt.sh"
 . "$DOTFILES_DIR/install/macfixit.sh"
+. "$DOTFILES_DIR/install/vim.sh"
 
 # TODO: Copy fonts
 # TODO: Run tests

@@ -1,3 +1,10 @@
+" Plugins
+filetype off " required
+call plug#begin('~/.vim/plugged')
+    Plug 'bling/vim-airline'
+    Plug 'vim-airline/vim-airline-themes'
+call plug#end()
+
 " Remove VI compatibility. SET FIRST!
 set nocompatible
 
@@ -57,3 +64,6 @@ set shiftround
 " whitespaces
 highlight ExtraWhiteSpace ctermbg=red guibg=red
 match ExtraWhitespace /\s\+$/
+
+" Plugins
+runtime! config/**/*.vim

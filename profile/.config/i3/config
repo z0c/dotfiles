@@ -21,9 +21,10 @@ client.urgent           #2f343a #560000 #ffffff #560000 #111111
 client.background 	#ffffff
 
 # apps
-set $browser "firefox-developer-edition"
+set $browser "qutebrowser"
 set $lock "i3lock -c 000000"
 set $menu "rofi -show run"
+set $private_browser "firefox-developer-edition -private-window
 set $term "xterm -en en_US.UTF-8"
 
 # Font for window titles. Will also be used by the bar unless a different font
@@ -48,7 +49,7 @@ floating_modifier $mod
 bindsym $mod+Return exec $term
 bindsym $mod+d exec --no-startup-id $menu
 bindsym $mod+b exec --no-startup-id $browser
-bindsym $mod+Shift+b exec --no-startup-id firefox-developer-edition -private-window
+bindsym $mod+Shift+b exec --no-startup-id $private_browser
 
 # kill focused window
 bindsym $mod+Shift+q kill

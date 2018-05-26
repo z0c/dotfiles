@@ -1,6 +1,5 @@
 [options]
 font = Monospace 10
-font = DejaVu Sans Mono 10
 mouse_autohide = true
 clickable_url = true
 browser = qutebrowser

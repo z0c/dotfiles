@@ -12,6 +12,9 @@ call plug#begin('~/.vim/plugged')
 
     " Github integration
     Plug 'tpope/vim-fugitive'
+
+    " Automatic delimiter adding
+    Plug 'Raimondi/delimitMate'
 call plug#end()
 
 " Remove VI compatibility. SET FIRST!

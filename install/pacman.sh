@@ -18,6 +18,7 @@ apps=(
 	pulseaudio			# A featureful, general-purpose sound server
 	pulseaudio-alsa
 	python
+	qutebrowser			# A keyboard-driven, vim-like browser based on PyQt5
 	ranger				# A simple, vim-like file manager
 	rofi				# A window switcher, application launcher and dmenu replacemet
 	tree 

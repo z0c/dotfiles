@@ -32,7 +32,6 @@ apps=(
 	xbindkeys			# Launch shell commands with your keyboard or your mouse under X
 	xorg-server
 	xorg-xinit
-	xterm
 	zip
 )
 

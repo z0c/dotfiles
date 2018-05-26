@@ -24,7 +24,7 @@ client.background 	#ffffff
 set $browser "qutebrowser"
 set $lock "i3lock -c 000000"
 set $menu "rofi -show run"
-set $private_browser "firefox-developer-edition -private-window
+set $private_browser "firefox-developer-edition -private-window"
 set $term "xterm -en en_US.UTF-8"
 
 # Font for window titles. Will also be used by the bar unless a different font

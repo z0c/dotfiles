@@ -42,6 +42,7 @@ ln -svf "$DOTFILES_DIR/profile/.xinitrc" ~
 . "$DOTFILES_DIR/install/macfixit.sh"
 . "$DOTFILES_DIR/install/vim.sh"
 . "$DOTFILES_DIR/install/rvm.sh"
+. "$DOTFILES_DIR/install/pip.sh"
 
 # TODO: Copy fonts
 # TODO: Run tests

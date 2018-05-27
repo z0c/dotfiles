@@ -21,7 +21,8 @@ apps=(
 	openssh
 	pulseaudio			# A featureful, general-purpose sound server
 	pulseaudio-alsa
-	python
+	python              # Next generation of the python high-level scripting language
+    python-pip          # The PyPA recommended tool for installing Python packages
 	qutebrowser			# A keyboard-driven, vim-like browser based on PyQt5
 	ranger				# A simple, vim-like file manager
 	rofi				# A window switcher, application launcher and dmenu replacemet

@@ -1,5 +1,8 @@
-Setup
-=====
+# Dotfiles
+
+My dotfiles setuop on archlinux
+
+## ArchLinux setup
 
 Install Qemu
 ```
@@ -32,14 +35,13 @@ git clone https://github.com/z0c/dotfiles
 bash dotfiles/dot.sh
 ```
 
-TODO
-============
-- [ ] Power management
-- [ ] microphone
-- [ ] vpn client
+## TODO
+- microphone
+- vpn client
+- spotify crashes very often
+- mopidy as an alternative to spotify
 
-Reference
-=========
+## Reference
 
 * https://wiki.archlinux.org/index.php/mac
 * https://wiki.archlinux.org/index.php/MacBookPro11,x

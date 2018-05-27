@@ -45,3 +45,6 @@ sudo pacman -S --needed --noconfirm --force "${apps[@]}"
 
 # Update
 sudo pacman -Syu --noconfirm
+
+# Services
+sudo systemctl enable docker && sudo systemctl start docker

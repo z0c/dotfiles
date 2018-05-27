@@ -7,14 +7,14 @@ call plug#begin('~/.vim/plugged')
     " Themes for airline
     Plug 'vim-airline/vim-airline-themes'
 
-    " Improved tree
-    Plug 'scrooloose/nerdtree', { 'on': ['NERDTreeToggle', 'NERDTreeFind'] }
+    " Automatic delimiter adding
+    Plug 'Raimondi/delimitMate'
 
     " Github integration
     Plug 'tpope/vim-fugitive'
 
-    " Automatic delimiter adding
-    Plug 'Raimondi/delimitMate'
+    " Improved tree
+    Plug 'scrooloose/nerdtree', { 'on': ['NERDTreeToggle', 'NERDTreeFind'] }
 
     " Class outline viewer
     Plug 'majutsushi/tagbar', { 'on': ['Tagbar'] }

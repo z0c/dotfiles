@@ -35,7 +35,6 @@ bash dotfiles/dot.sh
 TODO
 ============
 - [ ] Power management
-- [ ] Copy & paste on xterm
 - [ ] microphone
 - [ ] vpn client
 

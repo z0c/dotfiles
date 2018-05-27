@@ -40,6 +40,7 @@ bash dotfiles/dot.sh
 - vpn client
 - spotify crashes very often
 - mopidy as an alternative to spotify
+- weechat / wee-slack
 
 ## Reference
 

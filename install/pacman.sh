@@ -27,13 +27,14 @@ apps=(
 	rofi				# A window switcher, application launcher and dmenu replacemet
     terraform           # Tool for building, changing, and versioning infrastructure safely and efficiently
 	termite				# A simple VTE-based terminal
-	tree 
+	tree
 	ttf-dejavu
 	ttf-hack
 	unzip
 	vim
 	wget 				# Internet file retriever
 	wpa_supplicant
+    xclip               # Command line interface to the X11 clipboard
 	xbindkeys			# Launch shell commands with your keyboard or your mouse under X
 	xorg-server
 	xorg-xinit

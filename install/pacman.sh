@@ -1,5 +1,6 @@
 apps=(
 	alsa-utils			# An alternative implementation of Linux sound support
+    ansible             # Radically simple IT automaion platform
     aws-cli             # Universal Command Line Interface for Amazon Web Services
 	base-devel			# Make / build tools
     ctags               # Generates an index file of language objects found in source files

@@ -32,6 +32,7 @@ ln -svf "$DOTFILES_DIR/profile/.config/termite/config" ~/.config/termite/config
 ln -svf "$DOTFILES_DIR/profile/.gitconfig" ~
 ln -svf "$DOTFILES_DIR/profile/.gitignore_global" ~
 ln -svf "$DOTFILES_DIR/profile/.vim/config" ~/.vim
+ln -svf "$DOTFILES_DIR/profile/.vim/ftplugin" ~/.vim
 ln -svf "$DOTFILES_DIR/profile/.vim/vimrc" ~/.vim
 ln -svf "$DOTFILES_DIR/profile/.xinitrc" ~
 

@@ -36,11 +36,12 @@ bash dotfiles/dot.sh
 ```
 
 ## TODO
-- microphone
-- vpn client
-- spotify crashes very often
-- mopidy as an alternative to spotify
-- weechat / wee-slack
+* random crash, particularly with spotify
+* microphone
+* vpn client
+* spotify crashes very often
+* mopidy as an alternative to spotify
+* weechat / wee-slack
 
 ## Reference
 

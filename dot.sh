@@ -4,19 +4,20 @@
 export DOTFILES_DIR DOTFILES_CACHE DOTFILES_EXTRA_DIR
 DOTFILES_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 DOTFILES_CACHE="$DOTFILES_DIR/.cache.sh"
+source "$DOTFILES_DIR/bin/dot-messages"
 
-# Make utils available
+dot-info 'Make utils available'
 PATH="$DOTFILES_DIR/bin:$PATH"
 
-# Make utils executable
+dot-info 'Make utils executable'
 find "$DOTFILES_DIR/bin/" -type f -exec chmod +x {} \;
 
-# Update myself
+dot-info 'Update myself...'
 if is-executable git -a -d "$DOTFILES_DIR/.git"; then
   git --work-tree="$DOTFILES_DIR" --git-dir="$DOTFILES_DIR/.git" pull origin master
 fi
 
-# Symlinks
+dot-info 'Symlinks'
 ln -svf "$DOTFILES_DIR/profile/.Xresources" ~
 ln -svf "$DOTFILES_DIR/profile/.asoundrc" ~
 ln -svf "$DOTFILES_DIR/profile/.asoundrc.asoundconf" ~
@@ -36,13 +37,14 @@ ln -svf "$DOTFILES_DIR/profile/.vim/ftplugin" ~/.vim
 ln -svf "$DOTFILES_DIR/profile/.vim/vimrc" ~/.vim
 ln -svf "$DOTFILES_DIR/profile/.xinitrc" ~
 
-# Installers
+dot-info 'Starting installers'
 . "$DOTFILES_DIR/install/pacman.sh"
 . "$DOTFILES_DIR/install/yaourt.sh"
-. "$DOTFILES_DIR/install/macfixit.sh"
+. "$DOTFILES_DIR/install/arch-mac-fixes.sh"
 . "$DOTFILES_DIR/install/vim.sh"
 . "$DOTFILES_DIR/install/rvm.sh"
 . "$DOTFILES_DIR/install/pip.sh"
+. "$DOTFILES_DIR/install/docker.sh"
 
 # TODO: Copy fonts
 # TODO: Run tests

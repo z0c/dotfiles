@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+function dot-info {
+    echo "[  DOT  ] ${1}"
+}

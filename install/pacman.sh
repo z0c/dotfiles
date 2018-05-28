@@ -5,7 +5,6 @@ apps=(
 	base-devel			# Make / build tools
     ctags               # Generates an index file of language objects found in source files
 	dialog				# A tool to display dialog boxes from shell scripts
-    docker              # Pack, ship and run any application as a lightweight container
 	dosfstools			# DOS filesystem utilities
 	exfat-utils			# Utilities for exFAT file systems
 	firefox-developer-edition
@@ -42,13 +41,9 @@ apps=(
 	zip
 )
 
-# Install
+dot-info 'Pacman install'
 sudo pacman -S --needed --noconfirm --force "${apps[@]}"
 
-# Update
+dot-info 'Pacman update'
 sudo pacman -Syu --noconfirm
 
-# Services
-sudo systemctl enable docker && sudo systemctl start docker
-sudo groupadd docker
-sudo usermod -aG docker $USER

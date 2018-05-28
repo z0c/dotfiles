@@ -1,7 +1,7 @@
 # Packages
 declare -a packages=("package-query" "yaourt")
 
-# Install packages
+dot-info 'Yaourt install'
 for p in "${packages[@]}"; do
 	if ! which ${p} &>/dev/null; then
 		echo "Installing ${p}..."
@@ -24,12 +24,14 @@ apps=(
 	stress		# A tool that stess tests your system (CPU, memory, I/O, disks)
 )
 
-# Install
+dot-info 'Yaourt install apps'
 yaourt -S --needed --noconfirm --force "${apps[@]}"
 
-# Update
+dot-info 'Yaourt update'
 sudo yaourt -Syu --noconfirm
 
-# Enable services
+dot-info 'Mbpfan enable'
 sudo systemctl enable mbpfan && sudo systemctl start mbpfan
+
+dot-info 'Pommed enable'
 sudo systemctl enable pommed && sudo systemctl start pommed

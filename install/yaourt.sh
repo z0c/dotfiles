@@ -17,6 +17,7 @@ done
 
 apps=(
 	asoundconf
+    bind-tools  # The ISC DNS tools (dig, nslookup, etc)
 	heroku-cli	# A tool for creating and managing Heroku apps from the command line
 	mbpfan-git
 	pommed-light

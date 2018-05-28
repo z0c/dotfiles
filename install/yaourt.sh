@@ -16,13 +16,13 @@ for p in "${packages[@]}"; do
 done
 
 apps=(
-	asoundconf
-    bind-tools  # The ISC DNS tools (dig, nslookup, etc)
-	heroku-cli	# A tool for creating and managing Heroku apps from the command line
-	mbpfan-git
-	pommed-light
-	spotify
-	stress		# A tool that stess tests your system (CPU, memory, I/O, disks)
+	asoundconf 		# Get and set configuration parameters in ~/.asoundrc.asoundconf
+    bind-tools  	# The ISC DNS tools (dig, nslookup, etc)
+	heroku-cli		# A tool for creating and managing Heroku apps from the command line
+	mbpfan-git 		# Automatically adjust the fan on a MacBook Pro
+	pommed-light 	# Handles the hotkeys of Apple MacBook (Pro) laptops - lightweight edition
+	spotify			# A proprietary music streaming service
+	stress			# A tool that stess tests your system (CPU, memory, I/O, disks)
 )
 
 dot-info 'Yaourt install apps'

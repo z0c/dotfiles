@@ -56,7 +56,6 @@ set showcmd
 
 " Set linenumbers
 set number
-set relativenumber
 
 " Highlight search
 set hlsearch

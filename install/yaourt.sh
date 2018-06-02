@@ -26,7 +26,7 @@ apps=(
 )
 
 dot-info 'Yaourt install apps'
-sudo yaourt -S --needed --noconfirm --overwrite "${apps[@]}"
+sudo yaourt -S --needed --noconfirm "${apps[@]}"
 
 dot-info 'Yaourt update'
 yaourt -Syua --noconfirm

@@ -10,9 +10,6 @@ else
   return
 fi
 
-# Make utilities available
-PATH="$DOTFILES_DIR/bin:$PATH"
-
 # Read cache
 DOTFILES_CACHE="$DOTFILES_DIR/.cache.sh"
 [ -f "$DOTFILES_CACHE" ] && . "$DOTFILES_CACHE"
@@ -29,4 +26,6 @@ export DOTFILES_DIR DOTFILES_EXTRA_DIR
 
 # Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
-export PATH="$PATH:$HOME/.rvm/bin"
+
+# Make utilities available
+PATH="$PATH:$DOTFILES_DIR/bin"

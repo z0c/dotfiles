@@ -44,10 +44,10 @@ apps=(
 dot-info 'Pacman install'
 sudo pacman -S --needed --noconfirm "${apps[@]}"
 
-if [ ! is-executable pip ]; then
+is-executable pip || {
     dot-info 'Pacman install python-pip'
     sudo pacman -S --needed --noconfirm python-pip
-fi
+}
 
 dot-info 'Pacman update'
 sudo pacman -Syu --noconfirm

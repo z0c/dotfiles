@@ -1,6 +1,4 @@
-#!/urs/bin//env bash
-
-# copied from https://github.com/justin8/dotfiles/blob/master/install
+# Based on https://github.com/justin8/dotfiles/blob/master/install
 
 if [[ ! -f ~/.vim/autoload/plug.vim ]]; then
     dot-info "Vim instal vimplug"

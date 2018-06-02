@@ -26,10 +26,13 @@ apps=(
 )
 
 dot-info 'Yaourt install apps'
-yaourt -S --needed --noconfirm --overwrite "${apps[@]}"
+sudo yaourt -S --needed --noconfirm --overwrite "${apps[@]}"
 
 dot-info 'Yaourt update'
-sudo yaourt -Syu --noconfirm
+yaourt -Syua --noconfirm
+
+dot-info 'Yaourt clean'
+yaourt -Sc --noconfirm
 
 dot-info 'Mbpfan enable'
 sudo systemctl enable mbpfan && sudo systemctl start mbpfan

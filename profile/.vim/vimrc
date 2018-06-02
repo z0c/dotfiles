@@ -1,3 +1,5 @@
+set nocompatible                        " Remove VI compatibility. SET FIRST!
+
 " Plugins
 filetype off " required
 call plug#begin('~/.vim/plugged')
@@ -35,12 +37,8 @@ call plug#begin('~/.vim/plugged')
 	Plug 'davidhalter/jedi-vim', { 'for': [ 'python' ] }
 call plug#end()
 
-" Remove VI compatibility. SET FIRST!
-set nocompatible
-
 " filetype [ON] plugin [ON] ident [ON]
 filetype plugin indent on
-syntax on
 
 " Turn on wildmenu
 set wildmenu
@@ -56,6 +54,11 @@ set showcmd
 
 " Set linenumbers
 set number
+
+" Cursorline
+set cursorline                          " Highlight cursor line
+highlight CursorLineNR ctermbg=grey     " Set line numbering to grey background
+highlight clear CursorLine              " Remove the underline from enabling cursorline
 
 " Highlight search
 set hlsearch

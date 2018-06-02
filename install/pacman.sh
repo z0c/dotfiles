@@ -43,7 +43,7 @@ apps=(
 )
 
 dot-info 'Pacman install'
-sudo pacman -S --needed --noconfirm --overwrite "${apps[@]}"
+sudo pacman -S --needed --noconfirm "${apps[@]}"
 
 dot-info 'Pacman update'
 sudo pacman -Syu --noconfirm

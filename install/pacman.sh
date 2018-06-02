@@ -52,3 +52,6 @@ is-executable pip || {
 dot-info 'Pacman update'
 sudo pacman -Syu --noconfirm
 
+dot-info 'Pacman clean'
+sudo pacman -Sc --noconfirm
+

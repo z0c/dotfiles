@@ -5,6 +5,7 @@ apps=(
 	base-devel			# Make / build tools
     ctags               # Generates an index file of language objects found in source files
 	dialog				# A tool to display dialog boxes from shell scripts
+    docker              # # Pack, ship and run any application as a lightweight container
 	dosfstools			# DOS filesystem utilities
 	exfat-utils			# Utilities for exFAT file systems
 	firefox-developer-edition

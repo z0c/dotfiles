@@ -7,3 +7,4 @@ else
     bash < /tmp/rvm-install
 fi
 
+gem install vimgolf

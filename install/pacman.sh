@@ -7,6 +7,7 @@ apps=(
 	dialog				# A tool to display dialog boxes from shell scripts
     docker              # # Pack, ship and run any application as a lightweight container
 	dosfstools			# DOS filesystem utilities
+    evince              # Document viewer (PDF, Postscript, djvu, tiff, dvi, XPS, SyncTex support with gedit, comics books
 	exfat-utils			# Utilities for exFAT file systems
 	firefox-developer-edition
 	git

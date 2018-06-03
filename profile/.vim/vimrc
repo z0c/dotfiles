@@ -105,4 +105,4 @@ highlight ExtraWhiteSpace ctermbg=red guibg=red
 match ExtraWhitespace /\s\+$/
 
 " Plugins
-runtime! config/**/*.vim
+runtime! config/*.vim

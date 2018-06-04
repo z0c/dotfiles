@@ -1,6 +1,6 @@
 # Dotfiles
 
-My dotfiles setuop on archlinux
+My dotfiles setup on archlinux
 
 ## ArchLinux setup
 
@@ -36,12 +36,17 @@ bash dotfiles/dot.sh
 ```
 
 ## TODO
-* random crash, particularly with spotify
 * microphone
 * vpn client
-* spotify crashes very often
 * mopidy as an alternative to spotify
 * weechat / wee-slack
+
+## Hacks
+
+### Wireless fails to reconnect
+
+This is by no means a permanent fix, but a work-around to re-enable the wifi-connection via netctl
+Edit `/etc/netclt/profileid` and add `ForceConnect=yes`
 
 ## Reference
 

@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-if [[ "$OSTYPE" =~ ^arch ]]; then
+if [[ "$OSTYPE" =~ ^linux ]]; then
     exit 0
 else
     exit 1

@@ -1,5 +1,9 @@
 # Based on https://github.com/justin8/dotfiles/blob/master/install
 
+ln -svf "$DOTFILES_DIR/profile/.vim/config" ~/.vim
+ln -svf "$DOTFILES_DIR/profile/.vim/ftplugin" ~/.vim
+ln -svf "$DOTFILES_DIR/profile/.vim/vimrc" ~/.vim
+
 if [[ ! -f ~/.vim/autoload/plug.vim ]]; then
     dot-info "Vim instal vimplug"
     mkdir -p ~/.vim/autoload

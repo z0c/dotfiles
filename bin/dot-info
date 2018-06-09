@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+
+echo "[  DOT  ] ${1}"

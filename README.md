@@ -56,6 +56,7 @@ Edit `/etc/netclt/profileid` and add `ForceConnect=yes`
 * https://www.youtube.com/watch?v=sDq1oaYRgeg
 * http://tutos.readthedocs.io/en/latest/source/Arch.html
 * https://github.com/mohlerm/dotfiles
-* https://github.com/Airblader/dotfiles-manjar
+* https://github.com/Airblader/dotfiles-manjaro
 * https://bitbucket.org/marcoslopes/dotfiles-arch/src/217299091578da9f19663518235fc1861713d3e7/?at=master&fileviewer=file-view-default
 * https://github.com/pcm720/i3-dotfiles
+* https://github.com/webpro/dotfiles

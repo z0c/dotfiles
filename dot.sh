@@ -41,3 +41,6 @@ is-arch && . "$DOTFILES_DIR/install/asound.sh"
 
 # TODO: Copy fonts
 # TODO: Run tests
+
+reboot-required
+

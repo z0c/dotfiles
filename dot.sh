@@ -1,5 +1,9 @@
 #!/usr/bin/env bash
 
+# Fast password prompt
+iam=$(sudo whoami)
+dot-info "I am ${iam}"
+
 # Get current dir so this can run from any location
 export DOTFILES_DIR DOTFILES_CACHE DOTFILES_EXTRA_DIR
 DOTFILES_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"

@@ -21,7 +21,7 @@ sudo qemu-system-x86_64 -cpu core2duo -cdrom ~/Downloads/archlinux-2018.04.01-x8
 
 Bootstrap
 ```
-pacstrap /mnt base vim git
+pacstrap /mnt base linux linux-firmware vim git wpa_supplicant dialog netctl grub os-prober ntfs-3g 
 ```
 
 Change root to mount
